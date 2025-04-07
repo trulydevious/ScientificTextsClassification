@@ -1,0 +1,27 @@
+Najlepsze parametry dla LR: {'C': 1, 'penalty': 'l2', 'solver': 'lbfgs'}
+Najlepsza dokładność (CV) dla LR: 0.6369
+Dokładność na zbiorze testowym: 0.6313
+
+Najlepsze parametry dla DT: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 10, 'min_samples_split': 2}
+Najlepsza dokładność (CV) dla DT: 0.6434
+Dokładność na zbiorze testowym: 0.6388
+
+Najlepsze parametry dla RF: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+Najlepsza dokładność (CV) dla RF: 0.6669
+Dokładność na zbiorze testowym: 0.6594
+
+Najlepsze parametry dla NB: {'var_smoothing': 1e-07}
+Najlepsza dokładność (CV) dla NB: 0.4409
+Dokładność na zbiorze testowym: 0.4385
+
+Najlepsze parametry dla KNN: {'metric': 'manhattan', 'n_neighbors': 20, 'weights': 'distance'}
+Najlepsza dokładność (CV) dla KNN: 0.6322
+Dokładność na zbiorze testowym: 0.6218
+
+Najlepsze parametry dla SVM: {'C': 10, 'decision_function_shape': 'ovo', 'gamma': 'scale', 'kernel': 'linear'}
+Najlepsza dokładność (CV) dla SVM: 0.6510
+Dokładność na zbiorze testowym: 0.6428
+
+Najlepsze parametry dla MLP: {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 50, 25), 'learning_rate': 'constant', 'solver': 'adam'}
+Najlepsza dokładność (CV) dla MLP: 0.6604
+Dokładność na zbiorze testowym: 0.6538
